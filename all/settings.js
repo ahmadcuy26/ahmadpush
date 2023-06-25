@@ -1,15 +1,15 @@
 require("./module")
 
-global.owner = "6287705048235"
-global.creAtor = "6287705048235@s.whatsapp.net"
-global.namabot = "Tante28Botz"
+global.owner = "62895323035018"
+global.creAtor = "628955323035018@s.whatsapp.net"
+global.namabot = "PushBotz"
 global.autoJoin = false
 global.codeInvite = "CswK4kvQD1u7SfSmsYfMHZ"
 global.thumb = fs.readFileSync("./thumb.png")
 global.tekspushkon = ""
 global.tekspushkonv2 = ""
 global.packname = ""
-global.author = "Sticker By Tante28Botz"
+global.author = "Sticker By PushBotz"
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
